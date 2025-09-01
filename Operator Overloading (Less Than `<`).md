@@ -20,24 +20,31 @@ To write a Python program that demonstrates **operator overloading** by overload
    - Instantiate two objects `ob1` and `ob2` with values.
 
 4. **Use `<` Operator**:
-   - Use `print(ob2 < ob1)` to trigger the overloaded behavior.
+   - Use `(ob2 < ob1)` to trigger the overloaded behavior.
 
 ---
 
 ## 💻 Program
 class A:
+  
     def __init__(self, value):
+        
         self.value = value
 
     def __lt__(self, other):
+        
         return self.value < other.value
 
 ob1 = A(20)
+
 ob2 = A(3)
 
 if ob2 < ob1:
+   
     print("ob2 is less than ob1")
+
 else:
+   
     print("ob2 is not less than ob1")
     
 ## Output
