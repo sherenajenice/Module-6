@@ -23,7 +23,22 @@ To implement **Encapsulation** in Python by defining a class `Rectangle` with **
 ---
 
 ## 💻 Program
+class Rectangle:
+    
+    def __init__(self, length, width):
+       
+        self.__length = length  
+        
+        self.__width = width
+
+r = Rectangle(5, 3)
+
+print(r._Rectangle__length)
+
+print(r._Rectangle__width)
 
 ## Output
+<img width="206" height="96" alt="image" src="https://github.com/user-attachments/assets/001791c5-edaa-4ec8-9b6a-2d01a793f064" />
 
 ## Result
+Thus, To implement **Encapsulation** in Python by defining a class `Rectangle` with **private member variables** `__length` and `__breadth` is verified.
