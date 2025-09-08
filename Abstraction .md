@@ -49,9 +49,9 @@ class Rectangle(Shape):
 
 class Circle(Shape):
   
-  radius = 4
-  
-  def calculate_area(self):
+   radius = 4
+   
+   def calculate_area(self):
   
         return self.radius * self.radius*3.14
 
